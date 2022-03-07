@@ -1,0 +1,79 @@
+.messages-container .messages {
+    height: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.messages-container .messages .message {
+    background: #b2ddd8;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
+}
+
+.messages-container .messages .message .name {
+    color: #ff0000;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.messages-container .messages .message p {
+}
+
+.messages-container .input-container {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 0.5rem;
+}
+
+.messages-container .input-container button {
+    background: none;
+    background-color: #3190ff;
+    background-image: url(../assets/sendButton.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 2.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.messages-container .input-container input {
+    background: none;
+    height: 100%;
+    border: none;
+    outline: none;
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #c4c4c4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c4f1ec;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8fc2bc;
+}

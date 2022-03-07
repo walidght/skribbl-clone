@@ -1,0 +1,52 @@
+.container {
+    height: 100vh;
+    background-color: #a4bbd6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 0;
+}
+
+.header img {
+    width: 25rem;
+}
+
+.header button {
+    background: none;
+    background-image: url('../assets/settingsIcon.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.header button:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+}
+
+.progress-bar {
+    width: 100%;
+    padding: 0 11rem;
+    margin-top: 3.5rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar .empty-bar {
+    width: 28%;
+    height: 1rem;
+    border: 2px solid black;
+    background-color: #faf1ac;
+}
+.progress-bar .filled-bar {
+    border: 2px solid black;
+    width: 28%;
+    height: 1rem;
+    background-color: #ffbe00;
+}

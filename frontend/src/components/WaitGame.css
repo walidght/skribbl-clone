@@ -1,0 +1,11 @@
+.waiting-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.waiting-container p {
+    margin-top: 5rem;
+    font-size: 2.5rem;
+}

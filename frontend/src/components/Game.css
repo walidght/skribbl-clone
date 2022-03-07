@@ -1,0 +1,234 @@
+.game-container {
+    height: 100vh;
+    background-color: #a4bbd6;
+    padding: 0 2rem;
+}
+
+.game-container .header-container {
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.game-container .header-container img {
+    margin-top: 0.5rem;
+    width: 20rem;
+}
+
+.game-container .header-container .score {
+    font-size: 2rem;
+    line-height: 0;
+    margin: 0;
+    position: absolute;
+    left: 2rem;
+    margin-left: 2rem;
+}
+
+.game-container .header-container .round {
+    font-size: 2rem;
+    line-height: 0;
+    margin: 0;
+    background-color: #fff;
+    height: 100%;
+    width: 12rem;
+    border-color: #000;
+    border-width: 0.2rem;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container .header-container .timer {
+    font-size: 2rem;
+    line-height: 0;
+    margin: 0;
+    background-color: #fff;
+    height: 100%;
+    width: 14rem;
+    border-color: #000;
+    border-width: 0.2rem;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container .header-container .home {
+    height: 100%;
+    width: 4rem;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.5rem;
+    background-image: url('../assets/homeButton.svg');
+    background-size: 2.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.game-container span {
+    color: #e61a10;
+}
+
+.game-container .header-buttons {
+    width: 100%;
+    height: 4rem;
+    background-color: #c4c4c4;
+    border-color: #000;
+    border-width: 0.2rem;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.game-container .main-container {
+    width: 100%;
+    height: 82%;
+    padding: 0.7rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-container .main-container .left-main-container {
+    width: 21%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.game-container .main-container .right-main-container {
+    width: 77%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.game-container .main-container .right-main-container .canva-container {
+    height: 100%;
+    background-color: #fff;
+    width: 71%;
+}
+
+.game-container .main-container .right-main-container .messages-container {
+    height: 100%;
+    width: 29%;
+    border-color: #000;
+    border-width: 0.2rem;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.game-container .players-list-container {
+    width: 100%;
+    height: 88%;
+    background-color: #c4c4c4;
+    border-color: #000;
+    border-width: 0.2rem;
+    border-style: solid;
+}
+
+.game-container .word-container {
+    width: 100%;
+    height: 11%;
+    background-color: #fff;
+    border-color: #000;
+    border-width: 0.2rem;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.game-container .content-container {
+    width: 100%;
+    height: 88%;
+    border-color: #000;
+    border-width: 0.2rem;
+    border-style: solid;
+    background-color: #c4c4c4;
+    display: flex;
+}
+
+.game-container .tools-container {
+    width: 100%;
+    height: 11%;
+    border-color: #000;
+    border-width: 0.2rem;
+    border-style: solid;
+    background-color: #c4c4c4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container .tools-container button {
+    height: 100%;
+    background-color: transparent;
+    background-size: 1.4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 4rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 0 1rem;
+}
+
+#trash {
+    background-image: url('../assets/trashIcon.svg');
+}
+
+#arrow {
+    background-image: url('../assets/rightArrowIcon.svg');
+}
+
+#pencil {
+    background-image: url('../assets/pencilIcon.svg');
+}
+
+#color {
+    background-image: url('../assets/colorIcon.svg');
+}
+
+#plus {
+    background-image: url('../assets/plusIcon.svg');
+}
+
+#trash-clicked,
+#trash:hover {
+    background-image: url('../assets/trashIconBlack.svg');
+}
+
+#arrow-clicked,
+#arrow:hover {
+    background-image: url('../assets/rightArrowIconBlack.svg');
+}
+
+#pencil-clicked,
+#pencil:hover {
+    background-image: url('../assets/pencilIconBlack.svg');
+}
+
+#color-clicked,
+#color:hover {
+    background-image: url('../assets/colorIconBlack.svg');
+}
+
+#plus-clicked,
+#plus:hover {
+    background-image: url('../assets/plusIconBlack.svg');
+}
